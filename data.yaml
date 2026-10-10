@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['person']
+
+roboflow:
+  workspace: hari-prediansyah-sg0ra
+  project: person-detection-9de1m
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hari-prediansyah-sg0ra/person-detection-9de1m/dataset/9
